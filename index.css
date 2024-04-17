@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main{
+  width:70%;
+  margin:0;
+  margin-top:30px;
+  margin-left:300px;
+  padding:0 20px;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: center;
+
+}
+.movie-card{
+  background-color: antiquewhite;
+  border:0px;
+  padding:0px;
+  border-radius: 10px;
+  display:flex;
+}
+.movie-card:not(:first-child){
+  margin-top:20px;
+
+}
+.movie-card:last-child{
+  margin-bottom:50px;
+
+}
+.movie-card .left{
+  flex:1;
+  padding:5px;
+
+}
+.movie-card .left img{
+  height:250px;
+}
+.movie-card .right{
+  flex:10;
+  position:relative;
+}
+.movie-card .title{
+  padding:10px 20px;
+  font-size:25px;
+  font-weight: 700;
+}
+.movie-card .plot{
+  margin-top:20px;
+  padding:0px 20px;
+}
+.movie-card .price{
+  margin-top:20px;
+  padding:0px 20px;
+  font-weight: 500;
+  color:rgb(228, 118, 16);
+}
+.footer{
+  position:absolute;
+  bottom:0px;
+  display:flex;
+  padding:5px 10px;
+  box-sizing: border-box;
+
+  
+
+}
+.footer .rating{
+  font-size:20px;
+  font-weight: 500 ;
+ 
+ 
+  flex:2;
+}
+.footer .stars{
+  width:30px;
+  height:30px;
+  flex:3;
+  
+
+
+
+}
+.Countstars{
+  font-size: 25;
+  font-weight:bold;
+}
+.footer .star-dis{
+  font-size:20px;
+ width:150px;
+ margin-left:50px;
+ 
+ 
+}
+.footer .str-btn{
+  width:15px;
+  height:15px;
+
+
+}
+.footer button{
+  font-size:20px;
+  padding:10px 20px;
+  text-shadow: none;
+  border-radius:3px;
+  border:none;
+  font-weight:600;
+  flex:6;
+ 
+ 
+
+}
+.favourite-btn{
+  background-color: rgb(247, 2, 234);
+  color:rgb(245, 243, 243);
+ 
+  margin-right:5px;
+  margin-top:5px;
+  margin-bottom:5px;
+ 
+
+  
+
+}
+.cart-btn{
+  background-color: blue;
+  color:white;
+  margin:5px;
+
+
+}
+.uncart-btn{
+  background-color: red;
+  color:white;
+  margin:5px;
+}
+.unfavourite-btn{
+  background-color: rgb(250, 44, 37);
+  color:white;
+  margin:5px;
+  text-shadow: none;
+
+}
+
+.title{
+  
+  margin-left:20px;
+  font-size:25px;
+  font-weight: bold;
+  margin-top:5px;
+
+}
+.cartContainer{
+ position:relative;
+ cursor:pointer;
+ margin-right:30px;
+
+
+}
+.cartContainer .cartIcon{
+  height:48px;
+  margin-top:10px;
+  
+  color:white;
+
+}
+
